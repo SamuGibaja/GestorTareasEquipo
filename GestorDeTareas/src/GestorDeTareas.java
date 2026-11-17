@@ -1,0 +1,10 @@
+
+import java.util.ArrayList;
+
+public class GestorDeTareas {
+	static ArrayList<String> tareas = new ArrayList<>();
+
+	public static void main(String[] args) {
+		System.out.println("Gestor de tareas compartido");
+	}
+}
