@@ -7,13 +7,7 @@ public class GestorTareas {
 	public static void main(String[] args) {
 		System.out.println("Gestor de tareas compartido");
 	}
-	
-	
-	
-	
-	
-	
-	
+
 	
 	public static void listarTareas() {
 	    if (tareas.isEmpty()) {
@@ -24,4 +18,9 @@ public class GestorTareas {
 	        System.out.println((i + 1) + ". " + tareas.get(i));
 	    }
 	}
+	public static void agregarTarea(String descripcion) {
+		 if (descripcion != null && !descripcion.isBlank()) {
+		 tareas.add(descripcion);
+		 }
+		}
 }
